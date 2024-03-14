@@ -372,33 +372,30 @@ html,
   color: var(--ait-sidebar-icon-hover-color);
 }
 #aitopia-sidebar-opener {
-  position: fixed;
-  padding-left: 4px;
-  right: 0;
-  bottom: 70px;
-  background: white;
-  background: var(--ait-option-card-bg-color);
-  border-radius: 20px 0 0 20px;
-  width: 60px;
-  box-shadow: 0 0 10px #ffffff00;
-  box-shadow: var(--ait-sidebar-shadow);
-  transform: translate(10px);
-  transition: transform 0.2s;
-  animation-fill-mode: forwards;
-  z-index: 99999999999998;
+    position: fixed;
+    padding-left: 4px;
+    right: 0;
+    bottom: 70px;
+    background: #F5F7F9;
+    border-radius: 20px 0 0 20px;
+    width: 60px;
+    box-shadow: 0 0 10px #ffffff00;
+    box-shadow: var(--ait-sidebar-shadow);
+    transform: translate(10px);
+    transition: transform 0.2s;
+    animation-fill-mode: forwards;
+    z-index: 99999999999998;
 }
 #aitopia-sidebar-opener .opener-logo svg circle {
   fill: transparent;
 }
-#aitopia-sidebar-opener .opener-logo svg path {
-  fill: #01a77d;
-}
+   
 #aitopia-sidebar-opener:hover {
   background: #ffffff00;
 }
-#aitopia-sidebar-opener:hover .opener-logo svg circle {
-  fill: #01a77d;
-}
+    #aitopia-sidebar-opener:hover .opener-logo svg circle {
+        fill: #F5F7F9;
+    }
 #aitopia-sidebar-opener:hover .opener-logo svg path {
   fill: #fff;
 }
