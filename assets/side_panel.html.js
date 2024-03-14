@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill.js";import"./content.ts.js";import"./index.js";import"./Helpers.js";import"./components.js";document.querySelector("#aitopia-sidepanel #aitopia-container.close-sidebar")&&(document.querySelector("#aitopia-container.close-sidebar").classList.remove("close-sidebar"),document.querySelector("#aitopia-sidebar-opener").remove());
+//# sourceMappingURL=side_panel.html.js.map
